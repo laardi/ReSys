@@ -1,0 +1,47 @@
+ITEMS:
+	-URL testi, testaa että url osoittaa oikeaan paikkaan
+	-GET testi, testaa että saadaan oikea status koodi ja data formaatti
+	-POST testi, saadaanko oikea status koodi kun formaatti on oikea
+	-POST testi2, koetetaan lisätä väärällä formaatilla
+
+ITEM:
+	-URL, testataan osoittaako url oikeaan paikkaan
+	-GET, testataan väärällä urlilla
+	-GET2, testataan saadaanko oikea status koodi ja formaatti
+	-PUT, Saadaanko oikea status koodi
+	-PUT2, koetetaan muokata tavaraa jota ei ole olemassa
+	-DELETE, poistetaan itemi
+	-DELETE, koetetaan poistaa jotain jota ei ole olemassa
+
+USERS:
+	-URL, Testataan urlia
+	-GET, testataan saadaanko oikea status koodi ja formaatti
+	-POST, koetetaan lisätä useri
+	-POST2, koetetaan lisätä useri väärässä formaatissa
+	-POST3, koetetaan lisätä useri samalla useraccountilla
+
+USER:
+	-URL, Osoittaa oikeaan paikkaan
+	-GET, toimiiko get, formatti ja statuscode
+	-GET2, toimiiko väärällä ID:llä ja antaako 404
+	-PUT, statuskoodi + formaatti
+	-PUT2, koetetaan muokata useria jota ei ole olemassa
+	-PUT3, koetetaan muokata väärällä datalla
+	-DELETE, testataan poistaminen ja status koodi
+	-DELETE, koetetaan poistaa olematon käyttäjä
+
+RESERVATIONS
+	-URL, onko oikea
+	-GET, statuskoodi ja formaatti
+	-POST, statuskoodi ja formaatti
+	-POST2, testaus väärällä data formaatilla
+
+RESERVATION
+	-URL, osoittaa oikeaan paikkaa
+	-GET, väärällä osoitteella
+	-GET, statuskoodi + data formaatti
+	-PUT, status koodit + oikea formaatti
+	-PUT2, koetetaan muokata olematonta reservaatiota
+	-PUT3, koetetaan muokata väärällä datalla
+	-DELETE, status koodi ja onnistuuko
+	-DELETE, koetetaan poistaa olematon reservaatio
