@@ -1,3 +1,5 @@
+ReSys is a reservation system created for a programmable web course. ReSys is a RESTful web service that offers an opportunity to create a simple reservation service.
+
 How to start the server:
 
 	 -run "python -m resys.resources" in console
